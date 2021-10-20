@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">WiseFrame</string>
+    <string name="wiseframe_app">WiseFrame app</string>
+    <string name="logo_ab">Bonaiuti Andrea Logo</string>
+    <string name="app_version">Version 1.0.1</string>
+    <string name="title">Title</string>
+    <string name="icon_gallery">Gallery</string>
+    <string name="icon_google_photo">Google Photos</string>
+    <string name="icon_other">Other</string>
+    <string name="icon_dropbox">Dropbox</string>
+    <string name="icon_settings">Settings</string>
+    <string name="icon_selected_photo">Selected photos</string>
+    <string name="start_presentation">Start presentation</string>
+    <string name="pressToExit">Press back again to exit</string>
+    <string name="select_image">Select photos</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="error_dropbox">Error loading dropbox</string>
+    <string name="error_google_photos">Error loading Google Photos</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="button_gallery">Gallery button</string>
+    <string name="button_google_photos">Google photos button</string>
+    <string name="button_dropbox">Dropbox button</string>
+    <string name="button_other">Other button</string>
+    <string name="button_settings">Settings button</string>
+    <string name="button_selected_photo">Selected photos button</string>
+    <string name="button_start_presentation">Start presentation button</string>
+    <string name="image_gallery">Image</string>
+    <string name="full_image">Full image</string>
+    <string name="save_successful">Save successful</string>
+    <string name="save_error">An error occurred while saving one or more files</string>
+    <string name="name_image">Image name</string>
+    <string name="btn_delete_image_single">Delete</string>
+    <string name="btn_close_dialog">Close</string>
+    <string name="image_title_dialog_box">Image</string>
+    <string name="imageDeleted">Image deleted</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- *** ALERT WELCOME IN APP *** -->
+    <string name="welcome_app_title">Hello from WiseFrame!</string>
+    <string name="welcome_app_text">Welcome to WiseFrame! WiseFrame allows you to turn your phone into a digital photo frame</string>
+
+    <string name="done">Done</string>
+    <string name="activated">Activated</string>
+    <string name="disabled">Disabled</string>
+    <string name="send_email_title">Send email</string>
+
+    <!-- *** Settings *** -->
+    <string name="presentation_title">Presentation</string>
+    <string name="display_time">Display time</string>
+    <string name="ic_display_time">Icon display time</string>
+    <string name="display_effect">Display effect</string>
+    <string name="ic_display_effect">Icon display effect</string>
+    <string name="transition_effect">Transition effect</string>
+    <string name="ic_transition_effect">Icon transition effect</string>
+    <string name="photo_order">Photo order</string>
+    <string name="ic_photo_order">Icon photo order</string>
+    <string name="ornament">Ornament</string>
+    <string name="ic_ornament">Icon ornament</string>
+
+    <string name="generic_title">Generic</string>
+    <string name="always_on_screen">Always-on screen</string>
+    <string name="ic_always_on_screen">Icon always-on screen</string>
+    <string name="launch_boot">Launch on boot</string>
+    <string name="ic_launch_boot">Icon launch on boot</string>
+
+    <string name="feedBack_title">Feedback</string>
+    <string name="contact_developer">Contact the developer</string>
+    <string name="select_contact_developer">Please contact me with any problems, bugs or general inquiries./nThank you.</string>
+    <string name="ic_contact_developer">Icon contact the developer</string>
+    <string name="comment_app">Comment on the application</string>
+    <string name="select_comment_app">Your opinion is very important</string>
+    <string name="ic_comment_app">Icon comment on the application</string>
+
+    <string name="help_app">Help improve the app</string>
+    <string name="bug_crash">Anonymous bug and crash reports</string>
+    <string name="ic_bug_crash">Icon anonymous bug and crash reports</string>
+    <string name="select_bug_crash">Automatically send reports of problems to help resolve them</string>
+    <string name="reports">Anonymous usage reports</string>
+    <string name="ic_reports">Icon anonymous usage reports</string>
+    <string name="select_reports">Send anonymous and aggregate data used to analyze the use of the app, so you can understand how to improve it</string>
+
+    <string name="clear_cache">Clear cache</string>
+    <string name="ic_clear_cache">Icon clear cache</string>
+    <string name="clear_cache_successfully">Clean cache!</string>
+
+    <string name="minutes">minutes</string>
+    <string name="minute">minute</string>
+    <string name="seconds">seconds</string>
+
+    <string name="sec10">10\nseconds</string>
+    <string name="sec15">15\nseconds</string>
+    <string name="sec30">30\nseconds</string>
+    <string name="sec60">1\nminute</string>
+    <string name="sec300">5\nminutes</string>
+
+    <string name="insert_date_recent">Insert date\n(recent/older)</string>
+    <string name="insert_date_older">Insert date\n(older/recent)</string>
+    <string name="random">Random</string>
+
+    <string name="transition_fade">Fade</string>
+    <string name="transition_slide">Slide</string>
+    <string name="transition_zoom">Zoom</string>
+    <string name="transition_explosion">Explosion</string>
+
+    <string name="center_crop">CenterCrop</string>
+    <string name="center_inside">CenterInside</string>
+    <string name="matrix">Matrix</string>
+    <string name="fit_center">FitCenter</string>
+
+    <string name="image_blurry">Blurry image</string>
+    <string name="notification_channel_id">channel_id</string>
+    <string name="ic_info">Icon info</string>
+    <string name="image_info">Image info</string>
+    <string name="terms_service">Terms of service</string>
+    <string name="privacy_policy">Privacy policy</string>
+
+    <string name="presentation_on_1">The presentation is in progress</string>
+    <string name="presentation_on_2">Touch to return to the presentation</string>
+
+    <!-- Dialog usage information -->
+    <string name="title_usage_info">How WiseFrame works</string>
+    <string name="text_first_usage_info">Before using WiseFrame select the photos you prefer. You can review your chosen photos in the \"Selected Photos\" section. To start the presentation you will have to press the button in the center of the page.</string>
+    <string name="text_sec_usage_info">In the \"Settings\" section you can choose the various effects for the slideshow of the photos you like best.</string>
+    <string name="text_not_show_again">Do not show this message again</string>
+    <string name="check_not_show_again">Button don\'t show anymore</string>
+
+    <string name="other_app">Check out other apps</string>
+    <string name="select_other_app">Check out the other apps I\'ve made</string>
+
+    <string name="error_app">This app cannot be opened</string>
+
+</resources>

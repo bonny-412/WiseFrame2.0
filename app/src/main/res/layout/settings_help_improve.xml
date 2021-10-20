@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/bug_crash_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?selectableItemBackground" >
+
+        <ImageView
+            android:id="@+id/ic_bug_crash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_bug_crash"
+            android:contentDescription="@string/ic_bug_crash" />
+        <TextView
+            android:id="@+id/title_bug_crash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/bug_crash"
+            android:contentDescription="@string/bug_crash"
+            android:layout_toEndOf="@+id/ic_bug_crash"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp"/>
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_bug_crash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:id="@+id/select_bug_crash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_bug_crash"
+            android:layout_alignStart="@+id/title_bug_crash"
+            android:layout_toStartOf="@+id/switch_bug_crash"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorInfoVersion"
+            android:text="@string/select_bug_crash"
+            android:visibility="visible"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/reports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?selectableItemBackground">
+        <ImageView
+            android:id="@+id/ic_reports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_reports"
+            android:contentDescription="@string/ic_reports" />
+        <TextView
+            android:id="@+id/title_reports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/reports"
+            android:contentDescription="@string/reports"
+            android:layout_toEndOf="@+id/ic_reports"
+            android:layout_marginStart="15dp"
+            android:textSize="18sp"/>
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_reports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:id="@+id/select_reports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_reports"
+            android:layout_alignStart="@+id/title_reports"
+            android:layout_marginTop="5dp"
+            android:layout_toStartOf="@+id/switch_reports"
+            android:textColor="@color/colorInfoVersion"
+            android:text="@string/select_reports"
+            android:visibility="visible"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

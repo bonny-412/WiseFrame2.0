@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/always_on_screen_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?selectableItemBackground" >
+
+        <ImageView
+            android:id="@+id/ic_always_on_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_always_on_screen"
+            android:contentDescription="@string/ic_always_on_screen" />
+        <TextView
+            android:id="@+id/title_always_on_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/always_on_screen"
+            android:contentDescription="@string/always_on_screen"
+            android:layout_toEndOf="@+id/ic_always_on_screen"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp"/>
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_always_on_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:id="@+id/select_always_on_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_always_on_screen"
+            android:layout_alignStart="@+id/title_always_on_screen"
+            android:textColor="@color/colorInfoVersion"
+            android:layout_toStartOf="@+id/switch_always_on_screen"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/launch_boot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?selectableItemBackground">
+        <ImageView
+            android:id="@+id/ic_launch_boot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_launch_boot"
+            android:contentDescription="@string/ic_launch_boot" />
+        <TextView
+            android:id="@+id/title_launch_boot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/launch_boot"
+            android:contentDescription="@string/launch_boot"
+            android:layout_toEndOf="@+id/ic_launch_boot"
+            android:layout_marginStart="15dp"
+            android:textSize="18sp"/>
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_launch_boot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:id="@+id/select_launch_boot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_launch_boot"
+            android:layout_alignStart="@+id/title_launch_boot"
+            android:layout_marginTop="5dp"
+            android:layout_toStartOf="@+id/switch_launch_boot"
+            android:textColor="@color/colorInfoVersion"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/clear_cache_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="15dp"
+        android:background="?selectableItemBackground">
+        <ImageView
+            android:id="@+id/ic_clear_cache_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_clear"
+            android:contentDescription="@string/ic_clear_cache" />
+        <TextView
+            android:id="@+id/title_clear_cache_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/clear_cache"
+            android:contentDescription="@string/clear_cache"
+            android:layout_toEndOf="@+id/ic_clear_cache_image"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp" />
+    </RelativeLayout>
+
+</LinearLayout>

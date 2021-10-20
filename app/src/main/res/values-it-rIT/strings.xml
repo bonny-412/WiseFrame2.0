@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiseFrame</string>
+    <string name="wiseframe_app">App WiseFrame</string>
+    <string name="logo_ab">Bonaiuti Andrea Logo</string>
+    <string name="app_version">Version 1.0.1</string>
+    <string name="title">Titolo</string>
+    <string name="icon_gallery">Galleria</string>
+    <string name="icon_google_photo">Google Foto</string>
+    <string name="icon_other">Altro</string>
+    <string name="icon_dropbox">Dropbox</string>
+    <string name="icon_settings">Impostazioni</string>
+    <string name="icon_selected_photo">Foto scelte</string>
+    <string name="start_presentation">Avvia presentazione</string>
+    <string name="pressToExit">Premere di nuovo indietro per uscire</string>
+    <string name="select_image">Seleziona foto</string>
+    <string name="no_file_selected">Nessun file selezionato</string>
+    <string name="error_dropbox">Errore durante il caricamento di dropbox</string>
+    <string name="error_google_photos">Error loading Google Photos</string>
+    <string name="title_activity_settings">Impostazioni</string>
+    <string name="title_activity_gallery">Galleria</string>
+    <string name="button_gallery">Bottone galleria</string>
+    <string name="button_google_photos">Bottone Google foto</string>
+    <string name="button_dropbox">Bottone Dropbox</string>
+    <string name="button_other">Bottone altro</string>
+    <string name="button_settings">Bottone impostazioni</string>
+    <string name="button_selected_photo">Bottone foto selezionate</string>
+    <string name="button_start_presentation">Bottone avvia presentazione</string>
+    <string name="image_gallery">Immagine</string>
+    <string name="full_image">Immagine grande</string>
+    <string name="save_successful">Salvataggio avvenuto con successo</string>
+    <string name="save_error">Si è verificato un errore durante il salvataggio di uno o più file</string>
+    <string name="name_image">Nome immagine</string>
+    <string name="btn_delete_image_single">Elimina</string>
+    <string name="btn_close_dialog">Chiudi</string>
+    <string name="image_title_dialog_box">Immagine</string>
+    <string name="imageDeleted">Immagine eliminata</string>
+    <string name="cancel">Annulla</string>
+
+    <!-- *** ALERT WELCOME IN APP *** -->
+    <string name="welcome_app_title">Ciao da WiseFrame!</string>
+    <string name="welcome_app_text">Benvenuto in WiseFrame! WiseFrame ti consente di trasformare il tuo telefono in una cornice digitale</string>
+
+    <string name="done">Fatto</string>
+    <string name="activated">Attivato</string>
+    <string name="disabled">Disabilitato</string>
+    <string name="send_email_title">Invia email</string>
+
+    <!-- *** Settings *** -->
+    <string name="presentation_title">Presentazione</string>
+    <string name="display_time">Tempo di visualizzazione</string>
+    <string name="ic_display_time">Icona tempo di visualizzazione</string>
+    <string name="display_effect">Effetto di visualizzazione</string>
+    <string name="ic_display_effect">Icona effetto di visualizzazione</string>
+    <string name="transition_effect">Effetto di transizione</string>
+    <string name="ic_transition_effect">Icona effetto di transizione</string>
+    <string name="photo_order">Ordine foto</string>
+    <string name="ic_photo_order">Icona ordine foto</string>
+    <string name="ornament">Ornamento</string>
+    <string name="ic_ornament">Icona ornamento</string>
+
+    <string name="generic_title">Generico</string>
+    <string name="always_on_screen">Schermo sempre attivo</string>
+    <string name="ic_always_on_screen">Icona schermo sempre attivo</string>
+    <string name="launch_boot">Avvia all\'avvio</string>
+    <string name="ic_launch_boot">Icona avvia all\'avvio</string>
+
+    <string name="feedBack_title">Feedback</string>
+    <string name="contact_developer">Contatta lo sviluppatore</string>
+    <string name="select_contact_developer">Vi prego di contattarmi per eventuali problemi, bug o richieste di carattere generale.\nGrazie.</string>
+    <string name="ic_contact_developer">Icona contatta lo sviluppatore</string>
+    <string name="comment_app">Commenta l\'applicazione</string>
+    <string name="select_comment_app">La tua opinione è molto importante</string>
+    <string name="ic_comment_app">Icona commenta l\'applicazione</string>
+
+    <string name="help_app">Aiuta a migliorare l\'app</string>
+    <string name="bug_crash">Segnalazioni di bug e arresti anomali anonimi</string>
+    <string name="ic_bug_crash">Icona segnalazioni di bug e arresti anomali anonimi</string>
+    <string name="select_bug_crash">Invia automaticamente segnalazioni di problemi per aiutarli a risolverli</string>
+    <string name="reports">Rapporti di utilizzo anonimi</string>
+    <string name="ic_reports">Icona rapporti di utilizzo anonimo</string>
+    <string name="select_reports">Invia dati anonimi e aggregati utilizzati per analizzare l\'utilizzo dell\'app, in modo da poter capire come migliorarlo</string>
+
+    <string name="clear_cache">Pulisci cache</string>
+    <string name="ic_clear_cache">Icona pulisci cache</string>
+    <string name="clear_cache_successfully">Cache pulita!</string>
+
+    <string name="minutes">minuti</string>
+    <string name="minute">minuto</string>
+    <string name="seconds">secondi</string>
+
+    <string name="sec10">10\nsecondi</string>
+    <string name="sec15">15\nsecondi</string>
+    <string name="sec30">30\nsecondi</string>
+    <string name="sec60">1\nminuto</string>
+    <string name="sec300">5\nminuti</string>
+
+    <string name="insert_date_recent">Data creazione\n(recente/precedente)</string>
+    <string name="insert_date_older">Data creazione\n(precedente/recente)</string>
+    <string name="random">Casuale</string>
+
+    <string name="transition_fade">Dissolvenza</string>
+    <string name="transition_slide">Diapositiva</string>
+    <string name="transition_zoom">Zoom</string>
+    <string name="transition_explosion">Esplosione</string>
+
+    <string name="center_crop">CenterCrop</string>
+    <string name="center_inside">CenterInside</string>
+    <string name="matrix">Matrix</string>
+    <string name="fit_center">FitCenter</string>
+
+    <string name="image_blurry">Immagine sfocata</string>
+    <string name="notification_channel_id">channel_id</string>
+    <string name="ic_info">Icona info</string>
+    <string name="image_info">Immagine info</string>
+    <string name="terms_service">Termini di servizio</string>
+    <string name="privacy_policy">Info privacy</string>
+
+    <string name="presentation_on_1">La presentazione è in corso</string>
+    <string name="presentation_on_2">Tocca per tornare alla presentazione</string>
+
+    <!-- Dialog usage information -->
+    <string name="title_usage_info">Come funziona WiseFrame</string>
+    <string name="text_first_usage_info">Prima di usare WiseFrame selezionare le foto che preferisci.
+    Puoi rivedere le foto scelte nella sezione \"Foto scelte\". Per far partire la presentazione dovrai premere sul bottone al centro della pagina.</string>
+    <string name="text_sec_usage_info">Nella sezione \"Impostazioni\" potrai scegliere i vari effetti per la presentazione delle foto che più ti piacciono.</string>
+    <string name="text_not_show_again">Non mostrare più questo messaggio</string>
+    <string name="check_not_show_again">Bottone non mostare più</string>
+
+    <string name="other_app">Scopri altre app</string>
+    <string name="select_other_app">Guarda le altre app che ho realizzato</string>
+
+    <string name="error_app">Non è possibile aprire quest\'app</string>
+
+</resources>

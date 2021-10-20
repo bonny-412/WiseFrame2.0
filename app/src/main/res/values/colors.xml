@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#18d47d</color>
+    <color name="colorPrimaryDark">#06bfdb</color>
+    <color name="colorAccent">#0099a3</color>
+    <color name="cardColor">#F0F0F0</color>
+    <color name="textcardColor">#3f3f3f</color>
+    <color name="colorStartGradient">#06bfdb</color>
+    <color name="colorEndGradient">#18d47d</color>
+    <color name="colorInfoVersion">#A6A6A6</color>
+    <color name="colorBackground">#fafafa</color>
+    <color name="widget_transparent_color">#3B131313</color>
+</resources>

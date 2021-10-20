@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_alert">
+        <Button
+            android:id="@+id/random"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:onClick="checkedButton"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border_button_check"
+            style="?borderlessButtonStyle"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/random"
+            android:contentDescription="@string/random" />
+        <Button
+            android:id="@+id/insertDateRecent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            style="?borderlessButtonStyle"
+            android:text="@string/insert_date_recent"
+            android:onClick="checkedButton"
+            android:padding="10dp"
+            android:layout_below="@+id/random"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border_button_check"
+            android:contentDescription="@string/insert_date_recent" />
+        <Button
+            android:id="@+id/insertDateOlder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_below="@+id/insertDateRecent"
+            style="?borderlessButtonStyle"
+            android:text="@string/insert_date_older"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="checkedButton"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border_button_check"
+            android:contentDescription="@string/insert_date_older" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_delete"
+        style="?borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/check_button"
+        android:contentDescription="@string/done" />
+
+</LinearLayout>

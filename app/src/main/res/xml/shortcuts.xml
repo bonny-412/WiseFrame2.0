@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="open_list_timer"
+        android:enabled="true"
+        android:icon="@drawable/ic_start_presentation"
+        android:shortcutShortLabel="@string/start_presentation"
+        android:shortcutLongLabel="@string/start_presentation"
+        android:shortcutDisabledMessage="@string/start_presentation"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="it.bonny.wiseframe"
+            android:targetClass="it.bonny.wiseframe.manager.MainActivity" />
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="it.bonny.wiseframe"
+            android:targetClass="it.bonny.wiseframe.manager.SliderActivity" />
+    </shortcut>
+</shortcuts>

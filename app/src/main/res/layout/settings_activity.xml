@@ -1,0 +1,72 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <!-- Presentation -->
+        <TextView
+            android:id="@+id/presentation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_title_settings"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/presentation_title"
+            android:textSize="22sp" />
+
+        <include android:id="@+id/presentation_settings" layout="@layout/settings_presentation" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_below="@+id/presentation"/>
+
+        <!-- Generic -->
+        <TextView
+            android:id="@+id/generic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_title_settings"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/generic_title"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/presentation_settings"
+            android:textSize="22sp" />
+
+        <include android:id="@+id/generic_settings" layout="@layout/settings_generic" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_below="@+id/generic"/>
+
+        <!-- Help improve -->
+        <TextView
+            android:id="@+id/help_improve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_title_settings"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/help_app"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/generic_settings"
+            android:textSize="22sp" />
+
+        <include android:id="@+id/help_improve_settings" layout="@layout/settings_help_improve" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_below="@+id/help_improve"/>
+
+        <!-- Feedback -->
+        <TextView
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_title_settings"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/feedBack_title"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/help_improve_settings"
+            android:textSize="22sp" />
+
+        <include android:id="@+id/feedback_settings" layout="@layout/settings_feedback" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_below="@+id/feedback"/>
+
+    </RelativeLayout>
+</ScrollView>

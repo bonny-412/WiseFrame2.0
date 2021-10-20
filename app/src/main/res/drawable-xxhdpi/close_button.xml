@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/cardColor">
+
+    <item
+        android:id="@+id/round_background">
+        <shape android:shape="oval">
+            <solid
+                android:id="@+id/background_color"
+                android:color="@android:color/black"/>
+            <size
+                android:width="120dp"
+                android:height="120dp"/>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_close"
+        android:id="@+id/drawable_image" />
+
+</ripple>

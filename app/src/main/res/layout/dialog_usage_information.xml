@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/contentWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/border_alert">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_icon_wise_frame_foreground"/>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/img"
+            android:text="@string/title_usage_info"
+            android:contentDescription="@string/title_usage_info"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent" />
+        <TextView
+            android:id="@+id/text_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/title"
+            android:text="@string/text_first_usage_info"
+            android:contentDescription="@string/text_first_usage_info"
+            android:textSize="17sp"
+            android:textColor="@color/colorInfoVersion"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/linear_no_show_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/text_info"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone">
+            <CheckBox
+                android:id="@+id/show_again_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/check_not_show_again"
+                android:minHeight="48dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/text_not_show_again"
+                android:text="@string/text_not_show_again" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-20dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            style="?borderlessButtonStyle"
+            android:contentDescription="@string/btn_close_dialog"
+            android:background="@drawable/close_button"/>
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            style="?borderlessButtonStyle"
+            android:background="@drawable/next_button"
+            android:contentDescription="@string/btn_delete_image_single"
+            />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            style="?borderlessButtonStyle"
+            android:background="@drawable/back_button"
+            android:contentDescription="@string/btn_delete_image_single"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

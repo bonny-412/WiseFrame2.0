@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_alert">
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/sec10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                style="?borderlessButtonStyle"
+                android:text="@string/sec10"
+                android:onClick="checkedButton"
+                android:background="@drawable/border_button_check"
+                android:contentDescription="@string/sec10" />
+            <Button
+                android:id="@+id/sec15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                style="?borderlessButtonStyle"
+                android:text="@string/sec15"
+                android:onClick="checkedButton"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/border_button_check"
+                android:contentDescription="@string/sec15" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/line1"
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/sec30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:background="@drawable/border_button_check"
+                style="?borderlessButtonStyle"
+                android:text="@string/sec30"
+                android:onClick="checkedButton"
+                android:contentDescription="@string/sec30" />
+            <Button
+                android:id="@+id/sec60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                style="?borderlessButtonStyle"
+                android:text="@string/sec60"
+                android:onClick="checkedButton"
+                android:background="@drawable/border_button_check"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/sec60" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/line2"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+            <Button
+                android:id="@+id/sec300"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:onClick="checkedButton"
+                android:outlineProvider="bounds"
+                android:background="@drawable/border_button_check"
+                style="?borderlessButtonStyle"
+                android:text="@string/sec300"
+                android:contentDescription="@string/sec300" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_delete"
+        style="?borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/check_button"
+        android:contentDescription="@string/done" />
+
+</LinearLayout>
